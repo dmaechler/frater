@@ -140,9 +140,11 @@ global $woo_options, $woocommerce, $trego_vars;
 								</div>
 							</nav><!-- #site-navigation -->
 						</div><!-- #navbar -->
-						<div class="search-form clear">
-							<?php get_search_form(); ?>
+						<!--
+                        <div class="search-form clear">
+							<?php //get_search_form(); ?>
 						</div>
+                        --!>
 						<?php if (class_exists('Woocommerce') && !is_page_template('page-one-template.php')) { ?>
 						<div class="special-menu clear">
 						<ul class="special-menu-items">

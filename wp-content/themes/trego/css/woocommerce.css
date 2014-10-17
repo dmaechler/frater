@@ -48,7 +48,9 @@
 }
 
 .woocommerce-message .button {
-	color: #78BB77;
+	/*color: #78BB77;*/
+    font-weight: bold;
+    text-decoration: underline;
 }
 .woocommerce-error .button {
 	color: #D07676;
@@ -67,8 +69,8 @@
 
 .woocommerce-message {
 	border: 1px solid #CBF3CB;
-	background-color: #DEF8DE;
-	color: #98E298;
+	background-color: #CBF3CB;
+	/*color: #98E298;*/
 }
 
 .woocommerce-info {
