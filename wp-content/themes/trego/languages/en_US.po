@@ -1,0 +1,1841 @@
+# @ woocommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: Trego v1.8\n"
+"POT-Creation-Date: 2014-09-11 10:00+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: EternalFriend <eternalfriend38@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-Basepath: D:\\Web-Projects\\trego\\wp-content\\themes\\trego\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ trego
+#: 404.php:15
+msgid "Back to homepage"
+msgstr ""
+
+# @ default
+#: admin/classes/class.options_machine.php:556
+msgid "Last Backup : "
+msgstr ""
+
+# @ default
+#: admin/front-end/options.php:43 admin/front-end/options.php:67
+msgid "Save All Changes"
+msgstr ""
+
+# @ default
+#: admin/front-end/options.php:68
+msgid "Options Reset"
+msgstr ""
+
+# @ trego
+#: archive-portfolio.php:57 inc/shortcodes/portfolio.php:253
+msgid "All"
+msgstr ""
+
+# @ trego
+#: author-bio.php:14
+#, php-format
+msgid "About %s"
+msgstr ""
+
+# @ trego
+#: author-bio.php:47
+msgid "Other authors posts"
+msgstr ""
+
+# @ trego
+# @ woocommerce
+#: comments.php:20 functions.php:1419
+msgid "Comments"
+msgstr ""
+
+# @ trego
+#: comments.php:33
+msgid "Comment navigation"
+msgstr ""
+
+# @ trego
+#: comments.php:34
+msgid "&laquo; Older Comments"
+msgstr ""
+
+# @ trego
+#: comments.php:35
+msgid "Newer Comments &raquo;"
+msgstr ""
+
+# @ trego
+#: comments.php:40
+msgid "Comments are closed."
+msgstr ""
+
+# @ trego
+#: comments.php:47
+msgid "Name:"
+msgstr ""
+
+# @ trego
+#: comments.php:47
+msgid "Enter Your Name *"
+msgstr ""
+
+# @ trego
+#: comments.php:48
+msgid "Email Address:"
+msgstr ""
+
+# @ trego
+#: comments.php:48
+msgid "Enter Your Email *"
+msgstr ""
+
+# @ trego
+#: comments.php:52
+msgid "Comment:"
+msgstr ""
+
+# @ trego
+#: comments.php:52
+msgid "Your Comment"
+msgstr ""
+
+# @ trego
+#: content-gallery.php:47 content-image.php:47 content-quote.php:47
+#: content-video.php:47 content.php:47
+msgid "Continue reading <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+# @ trego
+#: content-gallery.php:48 content-image.php:48 content-quote.php:48
+#: content-video.php:48 content.php:48 image.php:56 page-left-sidebar.php:35
+#: page-right-sidebar.php:34 page.php:35
+msgid "Pages:"
+msgstr ""
+
+# @ trego
+#: content-gallery.php:56 content-image.php:56 content-quote.php:56
+#: content-video.php:56 content.php:56 image.php:31 page-left-sidebar.php:39
+#: page-right-sidebar.php:38 page.php:39
+msgid "[ Edit ]"
+msgstr ""
+
+# @ trego
+#: content-none.php:11
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+# @ trego
+#: content-none.php:15
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+# @ trego
+#: content-none.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+# @ trego
+#: functions.php:94 inc/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+# @ trego
+#: functions.php:95 inc/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr ""
+
+# @ trego
+#: functions.php:96 inc/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+# @ trego
+#: functions.php:97
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+# @ trego
+#: functions.php:108 inc/class-tgm-plugin-activation.php:178
+#: inc/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+# @ trego
+#: functions.php:109 inc/class-tgm-plugin-activation.php:179
+#: inc/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr ""
+
+# @ trego
+#: functions.php:110
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+# @ trego
+#: functions.php:164
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:165
+msgid "One Page Template"
+msgstr ""
+
+# @ trego
+#: functions.php:166
+msgid "Useful Links"
+msgstr ""
+
+# @ trego
+#: functions.php:167
+msgid "Footer Menu"
+msgstr ""
+
+# @ trego
+#: functions.php:320
+msgid "Gallery Type"
+msgstr ""
+
+# @ trego
+#: functions.php:475
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+# @ trego
+#: functions.php:490
+msgid "Main Sidebar"
+msgstr ""
+
+# @ trego
+#: functions.php:500
+msgid "Shop Sidebar"
+msgstr ""
+
+# @ trego
+#: functions.php:510
+msgid "Footer (3 columns)"
+msgstr ""
+
+# @ trego
+#: functions.php:520
+msgid "About Us Sidebar"
+msgstr ""
+
+# @ trego
+#: functions.php:530
+msgid "Contact Us Sidebar"
+msgstr ""
+
+# @ trego
+#: functions.php:588
+msgid "Post navigation"
+msgstr ""
+
+#: functions.php:590
+msgid "<span class=\"meta-nav\">&laquo;</span> Prev"
+msgstr ""
+
+# @ trego
+# @ woocommerce
+#: functions.php:593 image.php:61
+msgid "Next <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: functions.php:607
+msgid "Shop"
+msgstr ""
+
+# @ trego
+#: functions.php:621 functions.php:716 inc/classes/portfolio.php:15
+#: inc/classes/portfolio.php:29
+msgid "Portfolio"
+msgstr ""
+
+# @ trego
+#: functions.php:630
+msgid "Search results for "
+msgstr ""
+
+# @ trego
+#: functions.php:641
+msgid "Home"
+msgstr ""
+
+# @ trego
+#: functions.php:644
+msgid "Blog"
+msgstr ""
+
+# @ trego
+#: functions.php:681
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+# @ trego
+#: functions.php:686
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+# @ trego
+#: functions.php:691
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: functions.php:691
+msgid "F Y"
+msgstr ""
+
+# @ trego
+#: functions.php:696
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: functions.php:696
+msgid "Y"
+msgstr ""
+
+# @ trego
+#: functions.php:701
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+# @ trego
+#: functions.php:708
+msgid "Search Results for: "
+msgstr ""
+
+# @ trego
+#: functions.php:737
+msgid "Sticky"
+msgstr ""
+
+# @ trego
+#: functions.php:744
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+# @ trego
+#: functions.php:762
+msgid "Leave a comment"
+msgstr ""
+
+# @ trego
+#: functions.php:762
+msgid "One comment so far"
+msgstr ""
+
+# @ trego
+#: functions.php:762
+msgid "% Comments"
+msgstr ""
+
+# @ trego
+#: functions.php:781
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+# @ trego
+#: functions.php:999
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+# @ trego
+#: functions.php:1040
+msgid "Archives"
+msgstr ""
+
+# @ trego
+#: functions.php:1118
+msgid "Submit"
+msgstr ""
+
+# @ trego
+#: functions.php:1125
+msgid "Enter up for newsletter"
+msgstr ""
+
+# @ trego
+#: functions.php:1207
+msgid "No products found which match your selection."
+msgstr ""
+
+# @ trego
+# @ woocommerce
+#: functions.php:1265 inc/shortcodes/blocks.php:46 single-portfolio.php:45
+#: woocommerce/myaccount/my-orders.php:33
+msgid "Date"
+msgstr ""
+
+#: functions.php:1266 single-portfolio.php:46
+msgid "Categories"
+msgstr ""
+
+#: functions.php:1268 single-portfolio.php:48
+msgid "Share This"
+msgstr ""
+
+# @ trego
+#: functions.php:1311
+msgid "Default"
+msgstr ""
+
+# @ trego
+#: functions.php:1314
+msgid "Newest"
+msgstr ""
+
+# @ trego
+#: functions.php:1317
+msgid "Popularity"
+msgstr ""
+
+# @ trego
+#: functions.php:1320
+msgid "Average rating"
+msgstr ""
+
+# @ trego
+#: functions.php:1323
+msgid "Price: ASC"
+msgstr ""
+
+# @ trego
+#: functions.php:1326
+msgid "Price: DESC"
+msgstr ""
+
+# @ trego
+# @ woocommerce
+#: functions.php:1340 header.php:213
+msgid "View your shopping cart"
+msgstr ""
+
+#: functions.php:1343 header.php:216
+#, php-format
+msgid "%d item"
+msgstr ""
+
+#: functions.php:1345 header.php:218
+#, php-format
+msgid "%d item(s)"
+msgstr ""
+
+# @ trego
+#: functions.php:1382
+msgid "View as Grid"
+msgstr ""
+
+# @ trego
+#: functions.php:1383
+msgid "View as List"
+msgstr ""
+
+# @ woocommerce
+#: functions.php:1418
+msgid "Details"
+msgstr ""
+
+#: functions.php:1427 functions.php:1432
+msgid "First Name"
+msgstr ""
+
+#: functions.php:1428 functions.php:1433
+msgid "Last Name"
+msgstr ""
+
+#: functions.php:1429 functions.php:1434
+msgid "Company Name"
+msgstr ""
+
+#: functions.php:1430
+msgid "Email Address"
+msgstr ""
+
+#: functions.php:1431
+msgid "Phone"
+msgstr ""
+
+#: header.php:40
+msgid "Top"
+msgstr ""
+
+# @ trego
+#: header.php:66 header.php:105
+msgid "Menu"
+msgstr ""
+
+# @ trego
+#: header.php:149 header.php:157 header.php:249
+msgid "Latest Products"
+msgstr ""
+
+#: header.php:149
+msgid "Latest"
+msgstr ""
+
+# @ trego
+#: header.php:150 header.php:250
+msgid "Featured Products"
+msgstr ""
+
+#: header.php:150
+msgid "Featured"
+msgstr ""
+
+# @ trego
+#: header.php:151 header.php:251
+msgid "Special Products"
+msgstr ""
+
+#: header.php:151
+msgid "Specials"
+msgstr ""
+
+# @ trego
+#: image.php:18
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
+msgstr ""
+
+# @ trego
+#: image.php:45
+msgid "Full resolution"
+msgstr ""
+
+# @ trego
+# @ woocommerce
+#: image.php:60
+msgid "<span class=\"meta-nav\">&laquo;</span> Previous"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:517
+#: inc/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1299 inc/menus.php:235
+msgid "Type"
+msgstr ""
+
+# @ trego
+# @ woocommerce
+#: inc/class-tgm-plugin-activation.php:1300
+#: woocommerce/myaccount/my-orders.php:34
+msgid "Status"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1544
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1956
+#: inc/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1956
+#: inc/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+# @ trego
+#: inc/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/portfolio.php:13
+msgid "Portfolios"
+msgstr ""
+
+# @ trego
+#: inc/classes/portfolio.php:14
+msgid "All Portfolios"
+msgstr ""
+
+#: inc/classes/portfolio.php:16 inc/classes/testimonials.php:16
+msgid "Add New"
+msgstr ""
+
+# @ trego
+#: inc/classes/portfolio.php:17
+msgid "Add New Portfolio"
+msgstr ""
+
+# @ trego
+#: inc/classes/portfolio.php:18
+msgid "Edit Portfolio"
+msgstr ""
+
+# @ trego
+#: inc/classes/portfolio.php:19
+msgid "New Portfolio"
+msgstr ""
+
+# @ trego
+#: inc/classes/portfolio.php:20
+msgid "View Portfolio"
+msgstr ""
+
+# @ trego
+#: inc/classes/portfolio.php:21
+msgid "Search Portfolios"
+msgstr ""
+
+# @ trego
+#: inc/classes/portfolio.php:22
+msgid "No portfolios found"
+msgstr ""
+
+# @ trego
+#: inc/classes/portfolio.php:23
+msgid "No portfolios found in Trash"
+msgstr ""
+
+# @ trego
+#: inc/classes/portfolio.php:81
+msgid "Portfolio Categories"
+msgstr ""
+
+#: inc/classes/testimonials.php:13
+msgid "Testimonials"
+msgstr ""
+
+# @ trego
+#: inc/classes/testimonials.php:14
+msgid "All Testimonials"
+msgstr ""
+
+# @ trego
+#: inc/classes/testimonials.php:15 inc/classes/testimonials.php:29
+msgid "Testimonial"
+msgstr ""
+
+# @ trego
+#: inc/classes/testimonials.php:17
+msgid "Add New Testimonial"
+msgstr ""
+
+# @ trego
+#: inc/classes/testimonials.php:18
+msgid "Edit Testimonial"
+msgstr ""
+
+# @ trego
+#: inc/classes/testimonials.php:19
+msgid "New Testimonial"
+msgstr ""
+
+# @ trego
+#: inc/classes/testimonials.php:20
+msgid "View Testimonial"
+msgstr ""
+
+# @ trego
+#: inc/classes/testimonials.php:21
+msgid "Search Testimonials"
+msgstr ""
+
+# @ trego
+#: inc/classes/testimonials.php:22
+msgid "No case testimonials found"
+msgstr ""
+
+# @ trego
+#: inc/classes/testimonials.php:23
+msgid "No testimonials found in Trash"
+msgstr ""
+
+# @ trego
+#. translators: %s: title of menu item which is invalid
+#: inc/menus.php:112
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+# @ trego
+#. translators: %s: title of menu item in draft status
+#: inc/menus.php:116
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:157
+msgid "Edit Menu Item"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:166
+msgid "URL"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:173
+msgid "Navigation Label"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:179
+msgid "Title Attribute"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:186
+msgid "Open link in a new window/tab"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:191
+msgid "CSS Classes (optional)"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:197
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+# @ trego
+# @ woocommerce
+#: inc/menus.php:203 woocommerce/single-product/short-description.php:19
+msgid "Description"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:205
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+# @ trego
+#: inc/menus.php:218
+msgid "Don't link"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:228
+msgid "Don't show"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:237
+msgid "narrow"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:238
+msgid "wide"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:244
+msgid "Popup Position"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:246
+msgid "Justify"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:247
+msgid "Left"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:248
+msgid "Center"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:249
+msgid "Right"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:255
+msgid "Column"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:257
+msgid "4 Columns"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:258
+msgid "3 Columns"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:259
+msgid "2 Columns"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:260
+msgid "1 Columns"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:272
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+# @ trego
+#: inc/menus.php:285
+msgid "Remove"
+msgstr ""
+
+# @ trego
+# @ woocommerce
+#: inc/menus.php:286 woocommerce/myaccount/my-orders.php:75
+msgid "Cancel"
+msgstr ""
+
+# @ trego
+#: inc/shortcodes/blocks.php:44
+msgid "Title"
+msgstr ""
+
+# @ trego
+#: inc/shortcodes/blocks.php:45
+msgid "Shortcode"
+msgstr ""
+
+#: inc/shortcodes/gallery.php:271 inc/shortcodes/home_slider.php:373
+msgid "Shop Now"
+msgstr ""
+
+#: inc/shortcodes/section.php:487
+msgid "Follow Us"
+msgstr ""
+
+# @ trego
+#: inc/widgets/advertise.php:15
+msgid "Trego Advertising Info"
+msgstr ""
+
+# @ trego
+#: inc/widgets/advertise.php:16
+msgid "An Advertising Widget that displays image slider"
+msgstr ""
+
+# @ trego
+#: inc/widgets/contact_info.php:15
+msgid "Contact Information"
+msgstr ""
+
+# @ trego
+#: inc/widgets/contact_info.php:16
+msgid "Shows a contact information"
+msgstr ""
+
+# @ trego
+#: inc/widgets/contact_info.php:55
+msgid "Phone:"
+msgstr ""
+
+# @ trego
+#: inc/widgets/contact_info.php:69
+msgid "Mobile:"
+msgstr ""
+
+# @ trego
+#: inc/widgets/contact_info.php:83
+msgid "Fax:"
+msgstr ""
+
+# @ trego
+#: inc/widgets/contact_info.php:90
+msgid "E-mail:"
+msgstr ""
+
+# @ trego
+#: inc/widgets/contact_info.php:104
+msgid "Skype:"
+msgstr ""
+
+# @ trego
+#: inc/widgets/flickr.php:15
+msgid "Trego Flickr"
+msgstr ""
+
+# @ trego
+#: inc/widgets/flickr.php:16
+msgid "Shows a list of the most recent flickr"
+msgstr ""
+
+# @ trego
+#: inc/widgets/recent-posts.php:10
+msgid "A widget that displays recent posts "
+msgstr ""
+
+# @ trego
+#: inc/widgets/recent-posts.php:14
+msgid "Trego Recent Posts"
+msgstr ""
+
+# @ trego
+#: inc/widgets/recent-posts.php:34
+msgid "Recent Posts"
+msgstr ""
+
+# @ trego
+#: inc/widgets/recent-posts.php:53
+msgid "Comment(s)"
+msgstr ""
+
+# @ trego
+#: inc/widgets/recent-posts.php:89
+msgid "Title:"
+msgstr ""
+
+# @ trego
+#: inc/widgets/recent-posts.php:92
+msgid "Number of posts to show:"
+msgstr ""
+
+# @ trego
+#: inc/widgets/testimonials.php:15
+msgid "Trego Testimonials"
+msgstr ""
+
+# @ trego
+#: inc/widgets/testimonials.php:16
+msgid "Testimonial Widget Slider"
+msgstr ""
+
+# @ trego
+#: inc/widgets/tweets.php:15
+msgid "Twitter Feed"
+msgstr ""
+
+# @ trego
+#: inc/widgets/tweets.php:16
+msgid "Shows a list of the most recent tweets"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search"
+msgstr ""
+
+# @ trego
+#: single-portfolio.php:13
+msgid "Previous"
+msgstr ""
+
+# @ trego
+#: single-portfolio.php:14
+msgid "Next"
+msgstr ""
+
+# @ trego
+#: single-portfolio.php:56
+msgid "Recent Projects:"
+msgstr ""
+
+# @ trego
+#: taxonomy-post_format.php:14
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart-empty.php:14
+msgid "Your cart is currently empty."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart-empty.php:18
+msgid "&laquo; Return To Shop"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart-totals.php:18 woocommerce/cart/totals.php:25
+msgid "Cart Totals"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart-totals.php:22 woocommerce/cart/totals.php:28
+#: woocommerce/checkout/review-order.php:24
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28 woocommerce/cart/cart-totals.php:68
+msgid "Coupon:"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart-totals.php:76 woocommerce/cart/totals.php:91
+#: woocommerce/checkout/review-order.php:78
+msgid "Order Total"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart-totals.php:88 woocommerce/cart/totals.php:120
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart-totals.php:91 woocommerce/cart/totals.php:122
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart-totals.php:98 woocommerce/cart/totals.php:158
+msgid "Proceed to Checkout"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:28 woocommerce/checkout/review-order.php:91
+#: woocommerce/order/order-details.php:18
+msgid "Product"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:29
+msgid "Product Code"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:30
+msgid "Price"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:31
+msgid "Quantity"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:32 woocommerce/checkout/review-order.php:92
+#: woocommerce/myaccount/my-orders.php:35
+#: woocommerce/order/order-details.php:19
+msgid "Total"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:72
+msgid "Available on backorder"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:114 woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:128
+msgid "Update Cart"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/cross-sells.php:39
+msgid "Cross-Selling Product(s)"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/mini-cart.php:55
+msgid "No products in the cart."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/mini-cart.php:63
+msgid "Subtotal"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/mini-cart.php:68
+msgid "View Cart"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/mini-cart.php:69
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:20
+msgid "Calculate Shipping"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:23
+#: woocommerce/cart/shipping-calculator.php:31
+msgid "Coupon"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:31
+msgid "Apply Coupon"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:47
+msgid "Select a country&hellip;"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:64
+#: woocommerce/cart/shipping-calculator.php:70
+#: woocommerce/cart/shipping-calculator.php:82
+msgid "State / county"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:71
+msgid "Select a state&hellip;"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:91
+msgid "City"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:99
+msgid "Postcode / Zip"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:104
+msgid "Update Totals"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/shipping-methods.php:32
+msgid "Free"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/shipping-methods.php:68
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/shipping-methods.php:76 woocommerce/cart/totals.php:146
+#, php-format
+msgid ""
+"Sorry, it seems that there are no available shipping methods for your "
+"location (%s)."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/shipping-methods.php:76 woocommerce/cart/totals.php:146
+msgid ""
+"If you require assistance or wish to make alternate arrangements please "
+"contact us."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/totals.php:34
+msgid "Cart Discount"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/totals.php:34 woocommerce/cart/totals.php:82
+msgid "[Remove]"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/totals.php:45
+msgid "Shipping"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/totals.php:82
+msgid "Order Discount"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/totals.php:104
+#, php-format
+msgid "(Includes %s)"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/cart/totals.php:134
+msgid ""
+"No shipping methods were found; please recalculate your shipping and enter "
+"your state/county and zip/postcode to ensure there are no other available "
+"methods for your location."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/checkout/form-checkout.php:21
+msgid "You must be logged in to checkout."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/checkout/review-order.php:18
+msgid "Your order"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/checkout/review-order.php:165
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/checkout/review-order.php:167
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/checkout/review-order.php:178
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/checkout/review-order.php:178
+msgid "Update totals"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/checkout/review-order.php:185
+msgid "Place order"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:194
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/global/form-login.php:21
+#: woocommerce/myaccount/form-login.php:30
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid "Username or email"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/global/form-login.php:25
+#: woocommerce/myaccount/form-login.php:34
+#: woocommerce/myaccount/form-login.php:76
+msgid "Password"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/global/form-login.php:34
+#: woocommerce/myaccount/form-login.php:26
+#: woocommerce/myaccount/form-login.php:41
+msgid "Login"
+msgstr ""
+
+#: woocommerce/global/form-login.php:37
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:39
+msgid "Lost your password?"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/loop/add-to-cart.php:17 woocommerce/loop/add-to-cart.php:41
+#: woocommerce/loop/add-to-cart.php:51
+msgid "Read More"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/loop/add-to-cart.php:33
+msgid "Select options"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/loop/add-to-cart.php:37
+msgid "View options"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/loop/add-to-cart.php:47
+#: woocommerce/single-product/add-to-cart/simple.php:35
+msgid "Add to cart"
+msgstr ""
+
+# @ trego
+#: woocommerce/loop/new-badge.php:20
+msgid "New Badge"
+msgstr ""
+
+# @ trego
+#: woocommerce/loop/new-badge.php:25
+msgid "Product Newness"
+msgstr ""
+
+# @ trego
+#: woocommerce/loop/new-badge.php:26
+msgid "Display the 'New' flash for how many days?"
+msgstr ""
+
+# @ trego
+#: woocommerce/loop/new-badge.php:74
+msgid "New"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/loop/orderby.php:13
+msgid "SORT BY"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/loop/sale-flash.php:17
+#: woocommerce/single-product/sale-flash.php:17
+msgid "Sale"
+msgstr ""
+
+# @ trego
+#: woocommerce/myaccount/form-change-password.php:16
+msgid "Change Password"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-change-password.php:19
+#: woocommerce/myaccount/form-lost-password.php:32
+msgid "New password"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-change-password.php:20
+msgid "Enter New Password"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-change-password.php:23
+#: woocommerce/myaccount/form-lost-password.php:36
+msgid "Re-enter new password"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-change-password.php:24
+msgid "Re-enter New Password"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-change-password.php:28
+msgid "Save Password"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-edit-address.php:14
+#: woocommerce/myaccount/my-address.php:19
+#: woocommerce/myaccount/my-address.php:25
+#: woocommerce/order/order-details.php:116
+msgid "Billing Address"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-edit-address.php:14
+#: woocommerce/myaccount/my-address.php:20
+#: woocommerce/order/order-details.php:131
+msgid "Shipping Address"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-edit-address.php:51
+msgid "Save Address"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:31
+msgid "Enter UserName or Email"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:35
+#: woocommerce/myaccount/form-login.php:77
+msgid "Enter Password"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:42
+msgid "Lost Password?"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:53
+#: woocommerce/myaccount/form-login.php:91
+msgid "Register"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:59
+msgid "Username"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:60
+msgid "Enter UserName"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:71
+msgid "Email"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:72
+msgid "Enter Email"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:80
+#: woocommerce/myaccount/form-login.php:81
+msgid "Re-enter password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:85
+msgid "Anti-spam"
+msgstr ""
+
+# @ trego
+#: woocommerce/myaccount/form-lost-password.php:18
+msgid "Lost Password"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-lost-password.php:23
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-lost-password.php:29
+msgid "Enter a new password below."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-lost-password.php:47
+msgid "Reset Password"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/form-lost-password.php:47
+msgid "Save"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:45
+msgid "Edit"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/my-downloads.php:19
+msgid "Available downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:28
+#, php-format
+msgid "%s download remaining"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/my-orders.php:32
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:59
+#, php-format
+msgid "%s for %s item"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/myaccount/my-orders.php:68
+msgid "Pay"
+msgstr ""
+
+# @ trego
+# @ woocommerce
+#: woocommerce/myaccount/my-orders.php:81
+msgid "View"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/order/order-details.php:14
+msgid "Order Details"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/order/order-details.php:52
+#, php-format
+msgid "Download file%s"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/order/order-details.php:95
+msgid "Customer details"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/order/order-details.php:99
+msgid "Email:"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/order/order-details.php:100
+msgid "Telephone:"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/order/order-details.php:120
+#: woocommerce/order/order-details.php:135
+msgid "N/A"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/add-to-cart/variable.php:23
+msgid "Choose an option"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/add-to-cart/variable.php:68
+msgid "Clear selection"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/meta.php:20
+msgid "Availability:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:26
+msgid "In stock"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/meta.php:36
+msgid "Product Code:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:37
+msgid "n/a"
+msgstr ""
+
+# @ trego
+#: woocommerce/single-product/product-image.php:46
+msgid "Share: "
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/related.php:40
+msgid "Related Products"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/review.php:25
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/review.php:26
+#: woocommerce/single-product/star-rating.php:30
+msgid "out of 5"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/review.php:32
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/review.php:39
+msgid "verified owner"
+msgstr ""
+
+# @ trego
+#: woocommerce/single-product/star-rating.php:23
+msgid "Rated "
+msgstr ""
+
+# @ trego
+#: woocommerce/single-product/star-rating.php:23
+msgid " out of 5"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/star-rating.php:34
+msgid "Review(s)"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/star-rating.php:35
+msgid "Add Your Review"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/star-rating.php:38
+msgid "Be the first to review this product"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/tabs/additional-information.php:14
+msgid "Additional Information"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/tags.php:22
+msgid "Product Tags"
+msgstr ""
+
+# @ woocommerce
+#: woocommerce/single-product/up-sells.php:41
+msgid "Upselling Product(s)"
+msgstr ""
