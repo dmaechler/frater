@@ -8,7 +8,9 @@
  * @version     2.2.0
  */
 
-if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 
 /**
  * WC_Admin_Status Class
@@ -264,6 +266,11 @@ class WC_Admin_Status {
 	 * @return string
 	 */
 	public static function get_file_version( $file ) {
+		// Avoid notices if file does not exist
+		if ( ! file_exists( $file ) ) {
+			return '';
+		}
+
 		// We don't need to write to the file, so just open for reading.
 		$fp = fopen( $file, 'r' );
 

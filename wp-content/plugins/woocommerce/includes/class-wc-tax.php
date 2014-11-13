@@ -12,7 +12,7 @@ class WC_Tax {
 
 	public static $precision;
 	public static $round_at_subtotal;
-	
+
 	/**
 	 * Load options
 	 *
@@ -242,12 +242,12 @@ class WC_Tax {
 
 			// Run the query
 			$found_rates = $wpdb->get_results( $wpdb->prepare( "
-				SELECT tax_rates.* 
+				SELECT tax_rates.*
 				FROM {$wpdb->prefix}woocommerce_tax_rates as tax_rates
 				LEFT OUTER JOIN {$wpdb->prefix}woocommerce_tax_rate_locations as locations ON tax_rates.tax_rate_id = locations.tax_rate_id
 				LEFT OUTER JOIN {$wpdb->prefix}woocommerce_tax_rate_locations as locations2 ON tax_rates.tax_rate_id = locations2.tax_rate_id
-				WHERE tax_rate_country IN ( %s, '' ) 
-				AND tax_rate_state IN ( %s, '' ) 
+				WHERE tax_rate_country IN ( %s, '' )
+				AND tax_rate_state IN ( %s, '' )
 				AND tax_rate_class = %s
 				AND (
 					locations.location_type IS NULL
@@ -290,7 +290,7 @@ class WC_Tax {
 				if ( in_array( $found_rate->tax_rate_priority, $found_priority ) ) {
 					continue;
 				}
-				
+
 				$matched_tax_rates[ $found_rate->tax_rate_id ] = array(
 					'rate'     => $found_rate->tax_rate,
 					'label'    => $found_rate->tax_rate_name,
@@ -576,17 +576,18 @@ class WC_Tax {
 			$rate = $wpdb->get_row( $wpdb->prepare( "SELECT * FROM {$wpdb->prefix}woocommerce_tax_rates WHERE tax_rate_id = %s", $key ) );
 		}
 
-		if ( ! $rate ) {
-			return '';
+		$code_string = '';
+
+		if ( null !== $rate ) {
+			$code   = array();
+			$code[] = $rate->tax_rate_country;
+			$code[] = $rate->tax_rate_state;
+			$code[] = $rate->tax_rate_name ? $rate->tax_rate_name : 'TAX';
+			$code[] = absint( $rate->tax_rate_priority );
+			$code_string = strtoupper( implode( '-', array_filter( $code ) ) );
 		}
 
-		$code   = array();
-		$code[] = $rate->tax_rate_country;
-		$code[] = $rate->tax_rate_state;
-		$code[] = $rate->tax_rate_name ? $rate->tax_rate_name : 'TAX';
-		$code[] = absint( $rate->tax_rate_priority );
-
-		return apply_filters( 'woocommerce_rate_code', strtoupper( implode( '-', array_filter( $code ) ) ), $key );
+		return apply_filters( 'woocommerce_rate_code', $code_string, $key );
 	}
 
 	/**

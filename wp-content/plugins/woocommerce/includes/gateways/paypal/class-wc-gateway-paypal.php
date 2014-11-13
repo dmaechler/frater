@@ -1,6 +1,8 @@
 <?php
 
-if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 
 /**
  * PayPal Standard Payment Gateway
@@ -19,21 +21,17 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 
 	/**
 	 * Constructor for the gateway.
-	 *
-	 * @access public
-	 * @return void
 	 */
 	public function __construct() {
-		$this->id                   = 'paypal';
-		$this->icon                 = apply_filters( 'woocommerce_paypal_icon', WC()->plugin_url() . '/assets/images/icons/paypal.png' );
-		$this->has_fields           = false;
-		$this->order_button_text    = __( 'Proceed to PayPal', 'woocommerce' );
-		$this->liveurl              = 'https://www.paypal.com/cgi-bin/webscr';
-		$this->testurl              = 'https://www.sandbox.paypal.com/cgi-bin/webscr';
-		$this->method_title         = __( 'PayPal', 'woocommerce' );
-		$this->method_description   = __( 'PayPal standard works by sending the user to PayPal to enter their payment information.', 'woocommerce' );
-		$this->notify_url           = WC()->api_request_url( 'WC_Gateway_Paypal' );
-		$this->supports 			= array(
+		$this->id                 = 'paypal';
+		$this->has_fields         = false;
+		$this->order_button_text  = __( 'Proceed to PayPal', 'woocommerce' );
+		$this->liveurl            = 'https://www.paypal.com/cgi-bin/webscr';
+		$this->testurl            = 'https://www.sandbox.paypal.com/cgi-bin/webscr';
+		$this->method_title       = __( 'PayPal', 'woocommerce' );
+		$this->method_description = __( 'PayPal standard works by sending the user to PayPal to enter their payment information.', 'woocommerce' );
+		$this->notify_url         = WC()->api_request_url( 'WC_Gateway_Paypal' );
+		$this->supports           = array(
 			'products',
 			'refunds'
 		);
@@ -66,7 +64,6 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 
 		// Actions
 		add_action( 'valid-paypal-standard-ipn-request', array( $this, 'successful_request' ) );
-		add_action( 'woocommerce_receipt_paypal', array( $this, 'receipt_page' ) );
 		add_action( 'woocommerce_update_options_payment_gateways_' . $this->id, array( $this, 'process_admin_options' ) );
 		add_action( 'woocommerce_thankyou_paypal', array( $this, 'pdt_return_handler' ) );
 
@@ -74,14 +71,99 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 		add_action( 'woocommerce_api_wc_gateway_paypal', array( $this, 'check_ipn_response' ) );
 
 		if ( ! $this->is_valid_for_use() ) {
-			$this->enabled = false;
+			$this->enabled = 'no';
 		}
+	}
+
+	/**
+	 * get_icon function.
+	 *
+	 * @return string
+	 */
+	public function get_icon() {
+		$link = null;
+		switch ( WC()->countries->get_base_country() ) {
+			case 'US' :
+			case 'NZ' :
+			case 'CZ' :
+			case 'HU' :
+			case 'MY' :
+				$icon = 'https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg';
+			break;
+			case 'TR' :
+				$icon = 'https://www.paypalobjects.com/webstatic/mktg/logo-center/logo_paypal_odeme_secenekleri.jpg';
+			break;
+			case 'GB' :
+				$icon = 'https://www.paypalobjects.com/webstatic/mktg/Logo/AM_mc_vs_ms_ae_UK.png';
+			break;
+			case 'MX' :
+				$icon = array(
+					'https://www.paypal.com/es_XC/Marketing/i/banner/paypal_visa_mastercard_amex.png',
+					'https://www.paypal.com/es_XC/Marketing/i/banner/paypal_debit_card_275x60.gif'
+				);
+				$link = 'https://www.paypal.com/mx/cgi-bin/webscr?cmd=xpt/Marketing/general/WIPaypal-outside';
+			break;
+			case 'FR' :
+				$icon = 'https://www.paypalobjects.com/webstatic/mktg/logo-center/logo_paypal_moyens_paiement_fr.jpg';
+			break;
+			case 'AU' :
+				$icon = 'https://www.paypalobjects.com/webstatic/en_AU/mktg/logo/Solutions-graphics-1-184x80.jpg';
+			break;
+			case 'DK' :
+				$icon = 'https://www.paypalobjects.com/webstatic/mktg/logo-center/logo_PayPal_betalingsmuligheder_dk.jpg';
+			break;
+			case 'RU' :
+				$icon = 'https://www.paypalobjects.com/webstatic/ru_RU/mktg/business/pages/logo-center/AM_mc_vs_dc_ae.jpg';
+			break;
+			case 'NO' :
+				$icon = 'https://www.paypalobjects.com/webstatic/mktg/logo-center/banner_pl_just_pp_319x110.jpg';
+			break;
+			case 'CA' :
+				$icon = 'https://www.paypalobjects.com/webstatic/en_CA/mktg/logo-image/AM_mc_vs_dc_ae.jpg';
+			break;
+			case 'HK' :
+				$icon = 'https://www.paypalobjects.com/webstatic/en_HK/mktg/logo/AM_mc_vs_dc_ae.jpg';
+			break;
+			case 'SG' :
+				$icon = 'https://www.paypalobjects.com/webstatic/en_SG/mktg/Logos/AM_mc_vs_dc_ae.jpg';
+			break;
+			case 'TW' :
+				$icon = 'https://www.paypalobjects.com/webstatic/en_TW/mktg/logos/AM_mc_vs_dc_ae.jpg';
+			break;
+			case 'TH' :
+				$icon = 'https://www.paypalobjects.com/webstatic/en_TH/mktg/Logos/AM_mc_vs_dc_ae.jpg';
+			break;
+			default :
+				$icon = WC_HTTPS::force_https_url( WC()->plugin_url() . '/includes/gateways/paypal/assets/images/paypal.png' );
+				$link = null;
+			break;
+		}
+
+		if ( is_null( $link ) ) {
+			$link = 'https://www.paypal.com/' . strtolower( WC()->countries->get_base_country() ) . '/webapps/mpp/paypal-popup';
+		}
+
+		if ( is_array( $icon ) ) {
+			$icon_html = '';
+			foreach ( $icon as $i ) {
+				$icon_html .= '<img src="' . esc_attr( $i ) . '" alt="PayPal Acceptance Mark" />';
+			}
+		} else {
+			$icon_html = '<img src="' . esc_attr( apply_filters( 'woocommerce_paypal_icon', $icon ) ) . '" alt="PayPal Acceptance Mark" />';
+		}
+
+		if ( $link ) {
+			$what_is_paypal = sprintf( '<a href="%1$s" class="about_paypal" onclick="javascript:window.open(\'%1$s\',\'WIPaypal\',\'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700\'); return false;" title="' . esc_attr__( 'What is PayPal?', 'woocommerce' ) . '">' . esc_attr__( 'What is PayPal?', 'woocommerce' ) . '</a>', esc_url( $link ) );
+		} else {
+			$what_is_paypal = '';
+		}
+
+		return apply_filters( 'woocommerce_gateway_icon', $icon_html . $what_is_paypal, $this->id );
 	}
 
 	/**
 	 * Check if this gateway is enabled and available in the user's country
 	 *
-	 * @access public
 	 * @return bool
 	 */
 	function is_valid_for_use() {
@@ -110,9 +192,6 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 
 	/**
 	 * Initialise Gateway Settings Form Fields
-	 *
-	 * @access public
-	 * @return void
 	 */
 	public function init_form_fields() {
 		$this->form_fields = array(
@@ -134,7 +213,7 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 				'type'        => 'text',
 				'desc_tip'    => true,
 				'description' => __( 'This controls the description which the user sees during checkout.', 'woocommerce' ),
-				'default'     => __( 'Pay via PayPal; you can pay with your credit card if you don\'t have a PayPal account', 'woocommerce' )
+				'default'     => __( 'Pay via PayPal; you can pay with your credit card if you don\'t have a PayPal account.', 'woocommerce' )
 			),
 			'email' => array(
 				'title'       => __( 'PayPal Email', 'woocommerce' ),
@@ -271,8 +350,7 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 	/**
 	 * Get PayPal Args for passing to PP
 	 *
-	 * @access public
-	 * @param mixed $order
+	 * @param WC_Order $order
 	 * @return array
 	 */
 	function get_paypal_args( $order ) {
@@ -307,11 +385,11 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 				'business'      => $this->email,
 				'no_note'       => 1,
 				'currency_code' => get_woocommerce_currency(),
-				'charset'       => 'UTF-8',
+				'charset'       => 'utf-8',
 				'rm'            => is_ssl() ? 2 : 1,
 				'upload'        => 1,
-				'return'        => urlencode( esc_url( add_query_arg( 'utm_nooverride', '1', $this->get_return_url( $order ) ) ) ),
-				'cancel_return' => urlencode( esc_url( $order->get_cancel_order_url() ) ),
+				'return'        => esc_url( add_query_arg( 'utm_nooverride', '1', $this->get_return_url( $order ) ) ),
+				'cancel_return' => esc_url( $order->get_cancel_order_url() ),
 				'page_style'    => $this->page_style,
 				'paymentaction' => $this->paymentaction,
 				'bn'            => 'WooThemes_Cart',
@@ -479,69 +557,8 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 	}
 
 	/**
-	 * Generate the paypal button link
-	 *
-	 * @access public
-	 * @param mixed $order_id
-	 * @return string
-	 */
-	public function generate_paypal_form( $order_id ) {
-
-		$order = wc_get_order( $order_id );
-
-		if ( 'yes' == $this->testmode ) {
-			$paypal_adr = $this->testurl . '?test_ipn=1&';
-		} else {
-			$paypal_adr = $this->liveurl . '?';
-		}
-
-		$paypal_args = $this->get_paypal_args( $order );
-
-		$paypal_args_array = array();
-
-		foreach ( $paypal_args as $key => $value ) {
-			$paypal_args_array[] = '<input type="hidden" name="'.esc_attr( $key ) . '" value="' . esc_attr( $value ) . '" />';
-		}
-
-		wc_enqueue_js( '
-			$.blockUI({
-					message: "' . esc_js( __( 'Thank you for your order. We are now redirecting you to PayPal to make payment.', 'woocommerce' ) ) . '",
-					baseZ: 99999,
-					overlayCSS:
-					{
-						background: "#fff",
-						opacity: 0.6
-					},
-					css: {
-						padding:        "20px",
-						zindex:         "9999999",
-						textAlign:      "center",
-						color:          "#555",
-						border:         "3px solid #aaa",
-						backgroundColor:"#fff",
-						cursor:         "wait",
-						lineHeight:		"24px",
-					}
-				});
-			jQuery("#submit_paypal_payment_form").click();
-		' );
-
-		return '<form action="' . esc_url( $paypal_adr ) . '" method="post" id="paypal_payment_form" target="_top">
-				' . implode( '', $paypal_args_array ) . '
-				<!-- Button Fallback -->
-				<div class="payment_buttons">
-					<input type="submit" class="button alt" id="submit_paypal_payment_form" value="' . __( 'Pay via PayPal', 'woocommerce' ) . '" /> <a class="button cancel" href="' . esc_url( $order->get_cancel_order_url() ) . '">' . __( 'Cancel order &amp; restore cart', 'woocommerce' ) . '</a>
-				</div>
-				<script type="text/javascript">
-					jQuery(".payment_buttons").hide();
-				</script>
-			</form>';
-	}
-
-	/**
 	 * Process the payment and return the result
 	 *
-	 * @access public
 	 * @param int $order_id
 	 * @return array
 	 */
@@ -631,18 +648,6 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 	}
 
 	/**
-	 * Output for the order received page.
-	 *
-	 * @access public
-	 * @return void
-	 */
-	public function receipt_page( $order ) {
-		echo '<p>' . __( 'Thank you - your order is now pending payment. You should be automatically redirected to PayPal to make payment.', 'woocommerce' ) . '</p>';
-
-		echo $this->generate_paypal_form( $order );
-	}
-
-	/**
 	 * Check PayPal IPN validity
 	 **/
 	public function check_ipn_request_is_valid( $ipn_response ) {
@@ -704,9 +709,6 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 
 	/**
 	 * Check for PayPal IPN Response
-	 *
-	 * @access public
-	 * @return void
 	 */
 	public function check_ipn_response() {
 
@@ -731,9 +733,7 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 	/**
 	 * Successful Payment!
 	 *
-	 * @access public
 	 * @param array $posted
-	 * @return void
 	 */
 	public function successful_request( $posted ) {
 
