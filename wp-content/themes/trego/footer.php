@@ -101,5 +101,6 @@ global $trego_vars;
 	<?php if(trego_get_background()) { ?>
 	<div class="page-background"><div>
 	<?php } ?>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.13/slick.min.js"></script>
 </body>
 </html>

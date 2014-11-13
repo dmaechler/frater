@@ -1,9 +1,7 @@
 /*
-Theme Name: Trego
-Theme URI: http://newsmartwave.net/wordpress/trego
+Theme Name: Frater
 Description: Ultimate Responsive Woocommerce Theme
-Author: SW-THEMES
-Author URI: http://newsmartwave.net
+Author: David Maechler
 License: Commercial
 License URI: http://themeforest.net/licenses/regular_extended
 Tags: full-screen
@@ -610,8 +608,8 @@ ul, ol, dl {
 	border: 0 none;
 	display: block;
 	float: left;
-	font-family: 'Raleway_Regular';
-	font-size: 25px !important;
+    font-family: "Avenir Next Condensed";
+    font-size: 29px !important;
 	font-weight: normal;
 	line-height: 25px;
 	margin: 50px 0 0;
@@ -622,6 +620,7 @@ ul, ol, dl {
 	white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-transform: uppercase;
 }
 
 .header-topbar .quick-access {
@@ -873,11 +872,12 @@ ul.special-menu-items li a.selected span {
 
 .site-header div.copyrights {
 	display: block;
-	font-family: Verdana;
-	font-size: 10px;
+	font-family: "Avenir Next Condensed";
+	font-size: 15px;
 	text-align: left;
 	text-transform: uppercase;
 	word-spacing: break-word;
+    font-weight: bold;
 }
 
 .gallery-template .site-header div.copyrights {
@@ -1130,15 +1130,16 @@ a.cart-contents {
 
 .mega-menu {
     position: relative;
-    text-align: left;
+    text-align: center;
 }
 
 .mega-menu a {
     text-decoration: none; 
-    font-family: "PTSans_Caption";
+    font-family: "Avenir Next Condensed";
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    font-weight: bold;
 }
 
 .mega-menu h5 {
@@ -1167,7 +1168,7 @@ a.cart-contents {
 .mega-menu > ul > li > h5 {
     display: block;
     color: #4E4D49;
-    font-size: 14px;
+    font-size: 18px;
     text-transform: uppercase;
     line-height: 42px;
     padding: 0 10px;
@@ -3654,13 +3655,14 @@ div.page-404 .return-to-home {
 
 .portfolio .portfolio-category a {
 	color: #FFFFFF;
-	font-size: 12px;
+	font-size: 18px;
+    font-weight: bold;
 	line-height: 23px;
 	padding: 0 20px;
 	margin-right: -2px;
 	margin-bottom: 2px;
 	background-color: #C3C3C3;
-	font-family: Verdana;
+	font-family: "Avenir Next Condensed";
 	display: inline-block;
 	text-transform: capitalize;
 	-webkit-transition: all 0.3s ease-out;
@@ -5140,13 +5142,13 @@ ul.bxslider > br {
 }
 
 .section-name {
-	padding-top: 90px;
-	padding-bottom: 22px;
-	text-align: center;
-	color: #494745;
-	font-family: 'Myriad Pro';
-	font-size: 30px;
-	margin-bottom: 0;
+    padding-top: 90px;
+    /* padding-bottom: 22px; */
+    text-align: center;
+    color: #494745;
+    font-family: "Avenir Next Condensed";
+    font-size: 40px;
+    margin-bottom: 0;
 }
 
 .parallax .section-name {

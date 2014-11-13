@@ -30,7 +30,9 @@ global $woo_options, $woocommerce, $trego_vars;
 	<link rel="icon" href="<?php echo $favicon; ?>" type="image/x-icon" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/lightbox.css"/>
 	<?php wp_head(); ?>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/lightbox.min.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -41,6 +43,7 @@ global $woo_options, $woocommerce, $trego_vars;
 			<div class="header-sidebar"><!-- .header-sidebar -->
 				<div class="header-topbox container">
 					<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?> - <?php bloginfo( 'description' ); ?>" rel="home">
+                        <!--
 					<?php
 						$site_title = esc_attr( get_bloginfo( 'name', 'display' ) );
 
@@ -58,6 +61,8 @@ global $woo_options, $woocommerce, $trego_vars;
 							}
 						}
 					?>
+					-->
+                    <span style="font-family: 'Avenir Next Condensed';font-size: 65px;color:#000;">FRATER</span>
 					</a>
 					<div class="box-scroll">
 						<div id="navbar" class="navbar">

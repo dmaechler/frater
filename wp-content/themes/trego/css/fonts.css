@@ -8,6 +8,24 @@
 }
 
 @font-face {
+    font-family: 'Avenir Next Condensed';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/AvenirNextCondensed-UltraLight.ttf');
+    src: url('fonts/AvenirNextCondensed-UltraLight?iefix') format('eot'),
+    url('fonts/AvenirNextCondensed-UltraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir Next Condensed Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/AvenirNextCondensed-DemiBold.ttf');
+    src: url('fonts/AvenirNextCondensed-DemiBold?iefix') format('eot'),
+    url('fonts/AvenirNextCondensed-DemiBold.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'PTSans_Caption_Bold';
     font-weight: normal;
     font-style: normal;

@@ -26,7 +26,7 @@ $woocommerce = WC();
 		<tr>
 			<th class="product-thumbnail no-border-right">&nbsp;</th>
 			<th class="product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
-			<th class="product-sku"><?php _e( 'Product Code', 'trego' ); ?></th>
+			<th class="product-sku"><?php //_e( 'Product Code', 'trego' ); ?>Code Produit</th>
 			<th class="product-price"><?php _e( 'Price', 'woocommerce' ); ?></th>
 			<th class="product-quantity"><?php _e( 'Quantity', 'woocommerce' ); ?></th>
 			<th class="product-subtotal"><?php _e( 'Total', 'woocommerce' ); ?></th>

@@ -569,11 +569,12 @@ ul.products li.product .onsale {
 }
 
 ul.products li.product h3 {
-	padding: 0;
-	margin: 0;
-	font: 14px 'PTSans_Caption';
-	text-transform: uppercase;
-	color: #595959;
+    padding: 0;
+    margin: 0;
+    font: 18px 'Avenir Next Condensed';
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #595959;
 }
 
 ul.products li.product a {

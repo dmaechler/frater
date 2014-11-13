@@ -17,6 +17,7 @@ global $post, $product;
 <?php if ( get_option('woocommerce_enable_review_rating') == 'yes' ) : ?>
 
 	<?php $count = $product->get_rating_count(); ?>
+    <!--
 	<div class="average-star-rating">
 	<?php  if ( $count > 0 ) : ?>
 		<?php $rating = $rating = $product->get_average_rating(); ?>
@@ -38,6 +39,7 @@ global $post, $product;
 		<a href="#review_form" class="to-comments inline show_review_form button"><?php _e( 'Be the first to review this product', 'trego' ) ?></a>
 	<?php endif; ?>
 	</div>
+    -->
 	<script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$('.to-comments').click(function(){

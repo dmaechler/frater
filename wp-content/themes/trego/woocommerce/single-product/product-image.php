@@ -42,8 +42,10 @@ global $post, $woocommerce, $product, $trego_vars;
 	?>
 
 	<?php do_action( 'woocommerce_product_thumbnails' ); ?>
+    <!--
 	<div class="product-share">
 	<span class="share-label"><?php echo __('Share: ', 'trego'); ?></span>
 	<?php echo do_shortcode('[share]'); ?>
 	</div>
+	-->
 </div>
