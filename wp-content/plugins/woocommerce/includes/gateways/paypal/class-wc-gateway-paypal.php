@@ -31,7 +31,11 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 		$this->method_title       = __( 'PayPal', 'woocommerce' );
 		$this->method_description = __( 'PayPal standard works by sending the user to PayPal to enter their payment information.', 'woocommerce' );
 		$this->notify_url         = WC()->api_request_url( 'WC_Gateway_Paypal' );
-		$this->supports           = array(
+        // Custom
+        //$this->icon                 = apply_filters( 'woocommerce_paypal_icon', WC()->plugin_url() . '/assets/images/icons/paypal.png' );
+        $this->icon                 = "https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg";
+        // EndCustom
+		$this->supports 			= array(
 			'products',
 			'refunds'
 		);
