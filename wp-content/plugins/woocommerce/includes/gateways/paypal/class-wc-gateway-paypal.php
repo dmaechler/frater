@@ -25,7 +25,10 @@ class WC_Gateway_Paypal extends WC_Payment_Gateway {
 	 */
 	public function __construct() {
 		$this->id                   = 'paypal';
-		$this->icon                 = apply_filters( 'woocommerce_paypal_icon', WC()->plugin_url() . '/assets/images/icons/paypal.png' );
+        // Custom
+        //$this->icon                 = apply_filters( 'woocommerce_paypal_icon', WC()->plugin_url() . '/assets/images/icons/paypal.png' );
+        $this->icon                 = "https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg";
+        // EndCustom
 		$this->has_fields           = false;
 		$this->order_button_text    = __( 'Proceed to PayPal', 'woocommerce' );
 		$this->liveurl              = 'https://www.paypal.com/cgi-bin/webscr';
