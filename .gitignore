@@ -2,3 +2,4 @@ oldsite/
 .htaccess
 logs/
 .ssh/
+wp-config.php
