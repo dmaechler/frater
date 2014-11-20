@@ -5450,3 +5450,9 @@ ul.bxslider > br {
 	left: 0;
 	z-index: 1;
 }
+div.product p.price {
+    color:#000 !important;
+}
+ul.products li.product .price {
+    color:#000 !important;
+}
